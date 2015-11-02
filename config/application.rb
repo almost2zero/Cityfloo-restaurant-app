@@ -2,7 +2,6 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-require 'carrierwave/orm/activerecord'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -26,3 +25,5 @@ module RestauarantWeek
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
+
+require 'carrierwave/orm/activerecord'
