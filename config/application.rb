@@ -1,7 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
-
+require 'carrierwave'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -26,5 +26,5 @@ module RestauarantWeek
   end
 end
 
-require 'carrierwave'
-require 'carrierwave/orm/activerecord'
+
+
