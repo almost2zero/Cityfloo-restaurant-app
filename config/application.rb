@@ -26,5 +26,4 @@ module RestauarantWeek
   end
 end
 
-require 'carrierwave'
-require 'carrierwave/orm/activerecord'
+
