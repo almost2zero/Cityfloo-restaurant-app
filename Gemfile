@@ -48,7 +48,7 @@ group :development do
   gem 'pg', group: :production
   # gem 'carrierwave'
   gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
-  gem 'fog'
+  gem 'fog-aws'
   gem 'figaro'
 end
 
